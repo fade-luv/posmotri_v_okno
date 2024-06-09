@@ -176,12 +176,12 @@ ol {
   border-bottom: 1px solid white;
 }
 
-.search-form__textfield:focus {
-  outline: none;
-}
-
 .search-form__label:has(:focus-visible) {
   outline: 1px solid white;
+}
+
+.search-form__textfield:focus {
+  outline: none;
 }
 
 .search-form__pseudo-checkbox {
@@ -287,3 +287,4 @@ ol {
 .content__list-item:focus-visible {
   outline: 1px solid white;
 }
+
