@@ -74,6 +74,9 @@ ol {
   margin-bottom: 16px;
 }
 
+
+/* Автотесты гитхаба не пропустили position absolute в данном месте. Убрал его полностью */
+
 .result__video {
   width: 100%;
   height: 100%;
@@ -83,6 +86,7 @@ ol {
 .content__video-card-thumbnail {
   width: 200px;
   height: 103px;
+  object-position: center;
   object-fit: cover;
 }
 
