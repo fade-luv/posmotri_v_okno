@@ -57,14 +57,6 @@ ol {
 .content__list {
   position: relative;
   height: 298px;
-  overflow: auto;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-.content__list::-webkit-scrollbar {
-  width: 0;
-  height: 0;
 }
 
 .content__details {
