@@ -75,8 +75,6 @@ ol {
   margin-bottom: 16px;
 }
 
-/* Автотесты гитхаба не пропустили position absolute в данном месте. Убрал его полностью */
-
 .result__video {
   width: 100%;
   height: 100%;
