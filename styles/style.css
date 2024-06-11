@@ -260,6 +260,10 @@ ol {
   cursor: pointer;
 }
 
+.content__card-link:active {
+  background-color: #545050;
+}
+
 .content__card-link:hover {
   cursor: pointer;
   text-decoration: underline;
@@ -279,5 +283,5 @@ ol {
 }
 
 .content__card-link:focus-visible {
-  outline: 3px solid white;
+  outline: 1px solid white;
 }
